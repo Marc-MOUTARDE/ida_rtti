@@ -62,6 +62,6 @@ struct CompleteObjectLocator64
     uint32_t object_base;
 } __attribute__((packed));
 
-bool process_vftable(ea_t table, ea_t col, bool known = false);
+bool process_nt_vtable();
 
 #endif /* RTTI_HH */
